@@ -29,7 +29,6 @@ COPY Sales FROM '/Users/christopherbond/Copy of Nashville Housing Raw Data.csv' 
 DELETE FROM Sales
 WHERE UniqueID LIKE '%UniqueID%';
 
-
 --Due to CSV file being all string formatted...changed dtype of all 
 --columns where required
 ALTER TABLE Sales
